@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tres en raya</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css" type="text/css">
+	
+</head>
+<body>
+	<h1>Tres en raya</h1>
+    <div class="user">
+        <input type="text" id="usuario" value="" placeholder="Ingrese su nombre"><button onclick="guardarNombre()">Submit</button>
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <h2 id="textoVictoria"></h2>
+            <button id="close">Cerrar</button>
+        </div>
+    </div>
+	<!-- <div class="modal-container">
+        <h2 id="textoVictoria">asddassdadsa</h2>
+    </div> -->
+	<div id="tablero">
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+		<button class="juego-celda"></button>
+	</div>	
+
+    <div class="reiniciar">
+        <button  onclick="resetear()">Reiniciar</button>
+    </div>
+</body>
+<script src="app.js"></script>
+<script>
+    
+    
+</script>
+</html>
+
